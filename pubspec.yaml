@@ -1,7 +1,7 @@
 name: scroll_picker
 description: "A new Flutter package project."
 version: 0.0.1
-homepage:
+homepage: https://github.com/jeffk388/scroll_picker
 
 environment:
   sdk: '>=3.3.3 <4.0.0'
