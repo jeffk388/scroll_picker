@@ -31,6 +31,14 @@ TODO: List prerequisites and provide or point to information on how to
 start using the package.
 
 ## Usage
+Add to the pubspec.yaml:
+```dart
+flutter pub add scroll_picker
+```
+Import the package:
+```dart
+import 'package:scroll_picker/scroll_picker.dart';
+```
 - The parent widget calling the package should be STATEFUL
 - declare your local currentPick and String List:
     \_ eg:
