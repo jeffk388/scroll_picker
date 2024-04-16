@@ -1,5 +1,5 @@
 name: scroll_picker
-description: "A new Flutter package project."
+description: "Scroll picker to select an item from String list"
 version: 0.0.1
 homepage: https://github.com/jeffk388/scroll_picker
 

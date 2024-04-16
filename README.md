@@ -11,24 +11,30 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
-## Features
 The package scroll_picker is to help in picking an option out of String array/list.
 It shows wheel scroll view on top of your view like a modal. The cursor moves to the current selection. Picking a new option is either by clicking the "confirm" button or directly clicking the item desired.
 The selected item is returned via the callback function.
 
-<!-- TODO: List what your package can do. Maybe include images, gifs, or videos. -->
+## Features
+- Easy iplementation to pick an option from a list of String.
+- Support multiple item lines, 5 is good, 7, 9 are options.
+- The pack inclue a funtion returning Color.fromRGBO from hex string like '#F0605Ff0', 
+    ```dart
+    color: stringToRGBO('#FFFFFFff'),
+    ```
+
 
 ![frontScreen](https://github.com/jeffk388/scroll_picker/blob/main/shot_button.png)
 ![frontScreen](https://github.com/jeffk388/scroll_picker/blob/main/shot_with_scroll.png)
 
 
+START_SECTION:buy-me-a-coffee
+https://buymeacoffee.com/jeffk388
+END_SECTION:buy-me-a-coffe
+
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Github provide an example.
 
 ## Usage
 Add to the pubspec.yaml:
@@ -72,7 +78,5 @@ import 'package:scroll_picker/scroll_picker.dart';
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+Please refer my Github site for details.
 # scroll_picker
