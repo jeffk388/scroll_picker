@@ -15,6 +15,10 @@ The package scroll_picker is to help in picking an option out of String array/li
 It shows wheel scroll view on top of your view like a modal. The cursor moves to the current selection. Picking a new option is either by clicking the "confirm" button or directly clicking the item desired.
 The selected item is returned via the callback function.
 
+START_SECTION:buy-me-a-coffee
+https://buymeacoffee.com/jeffk388
+END_SECTION:buy-me-a-coffe
+
 ## Features
 - Easy iplementation to pick an option from a list of String.
 - Support multiple item lines, 5 is good, 7, 9 are options.
@@ -28,9 +32,7 @@ The selected item is returned via the callback function.
 ![frontScreen](https://github.com/jeffk388/scroll_picker/blob/main/shot_with_scroll.png)
 
 
-START_SECTION:buy-me-a-coffee
-https://buymeacoffee.com/jeffk388
-END_SECTION:buy-me-a-coffe
+
 
 ## Getting started
 
