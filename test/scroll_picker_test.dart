@@ -1,21 +1,18 @@
-import 'package:flutter_test/flutter_test.dart';
-
 import 'package:scroll_picker/scroll_picker.dart';
 
 
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 
 
 //logger
-import 'package:logger/logger.dart';
+/* import 'package:logger/logger.dart';
 
 var logger =Logger(
   printer: PrettyPrinter()
-);
+); */
 
-/// Flutter code sample for [showDialog].
+/// Sample code for Scroll picker
 /// 
 //int _selectedIndex=0;
 
@@ -50,7 +47,7 @@ class _DialogExampleState extends State<DialogExample> {
   void callbackOption(value) {
     setState((){
       currOption =value;
-      logger.i('043 curr_option ===$currOption');
+      //logger.i('043 curr_option ===$currOption');
     });
   }
   @override

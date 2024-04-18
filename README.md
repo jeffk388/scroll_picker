@@ -15,21 +15,26 @@ The package scroll_picker is to help in picking an option out of String array/li
 It shows wheel scroll view on top of your view like a modal. The cursor moves to the current selection. Picking a new option is either by clicking the "confirm" button or directly clicking the item desired.
 The selected item is returned via the callback function.
 
-START_SECTION:buy-me-a-coffee
+- ☕ Buy me a coeffee ☕︎ 
+<!--START_SECTION:buy-me-a-coffee -->
 https://buymeacoffee.com/jeffk388
-END_SECTION:buy-me-a-coffe
+<!--END_SECTION:buy-me-a-coffe -->
 
 ## Features
-- Easy iplementation to pick an option from a list of String.
-- Support multiple item lines, 5 is good, 7, 9 are options.
+- Easy iplementation to pick an item from a list of String.
+- Support multiple item lines, 5 is default, 7, 9 are options.
 - The pack inclue a funtion returning Color.fromRGBO from hex string like '#F0605Ff0', 
     ```dart
     color: stringToRGBO('#FFFFFFff'),
     ```
 
+- YouTube link: https://www.youtube.com/watch?v=YWt3sW1uuZ0
 
 ![frontScreen](https://github.com/jeffk388/scroll_picker/blob/main/shot_button.png)
 ![frontScreen](https://github.com/jeffk388/scroll_picker/blob/main/shot_with_scroll.png)
+
+![front](C:\jh\WebProject\fl_package\scroll_picker\shot_button.png)
+![action](shot_with_scroll.png)
 
 
 
@@ -52,7 +57,7 @@ import 'package:scroll_picker/scroll_picker.dart';
     \_ eg:
     ```dart
     List<String> options=['Apple','Kiwi', 'Tomato','Pear'];
-    String currentOption =options[0];
+    String? currentOption;
     ```
 - make and pass a callback funtion to take the selected item (val) from the package:
     ```dart
@@ -60,6 +65,16 @@ import 'package:scroll_picker/scroll_picker.dart';
         setState((){
             currentOption =val;
         });
+    }
+    ```
+- Initialize the currentOption
+    ```dart
+    @override
+    void initState(){
+        setState((){
+            currentOption=currentOption ?? options[0];
+        });
+        super.initState();
     }
     ```
 \_ when an item on the wheel is clicked or the confirm button is clicked, 

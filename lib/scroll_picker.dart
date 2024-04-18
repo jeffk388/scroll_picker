@@ -14,7 +14,7 @@ class ScrollPicker extends StatefulWidget {
     required this.fontSizeList,             //fontSize of List item
     required this.fontSizeTitle,            //fontSize of Title & Confirm
     this.scrollLines=5,                     // Count of rows in scrollView  5 (def) 7
-    this.colorTextDisplay='#FFFFFFff',                // text color for the selected & display on your view
+    this.colorTextDisplay='#C87050ff',                // text color for the selected & display on your view
     this.colorText='#FFFFFFff',             // Text color of List item, title, and confirm
     this.colorIcon='#FF5020f0',             // Cancel icon color
     this.colorBoxWhole='#205040e0',         //'#102090f0',  background color of the whole dialog box
